@@ -76,7 +76,7 @@ public class ManagementCreditCardPersonServiceImpl implements IManagementCreditC
         creditCardPerson.setAnnualCommission(creditCardPersonRequest.getAnnualCommission());
         creditCardPerson.setCutoffDate(creditCardPersonRequest.getCutoffDate());
         creditCardPerson.setPayLimitDate(creditCardPersonRequest.getPayLimitDate());
-        //creditCardPerson.setCreditCardNumber();
+        creditCardPerson.setCreditCardNumber(creditCardPersonRequest.getCreditCardNumber());
         creditCardPerson.setIdPersonClient(creditCardPersonRequest.getIdPersonClient());
         creditCardPerson.setIdActiveProduct(creditCardPersonRequest.getIdActiveProduct());
         creditCardPerson.setPersonClient(personClient);

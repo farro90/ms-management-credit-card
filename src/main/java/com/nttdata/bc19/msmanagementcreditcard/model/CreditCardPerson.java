@@ -14,7 +14,7 @@ public class CreditCardPerson extends BaseModel{
     private double creditLine;
     private double amountConsumed;
     private double minimumPayment;
-    private int AnnualCommission;
+    private int annualCommission;
     private int cutoffDate;
     private int payLimitDate;
     private LocalDateTime openingDate;

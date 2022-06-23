@@ -76,7 +76,7 @@ public class ManagementCreditCardBusinessServiceImpl implements IManagementCredi
         creditCardBusiness.setAnnualCommission(creditCardBusinessRequest.getAnnualCommission());
         creditCardBusiness.setCutoffDate(creditCardBusinessRequest.getCutoffDate());
         creditCardBusiness.setPayLimitDate(creditCardBusinessRequest.getPayLimitDate());
-        //creditCardBusiness.setCreditCardNumber();
+        creditCardBusiness.setCreditCardNumber(creditCardBusinessRequest.getCreditCardNumber());
         creditCardBusiness.setIdBusinessClient(creditCardBusinessRequest.getIdBusinessClient());
         creditCardBusiness.setIdActiveProduct(creditCardBusinessRequest.getIdActiveProduct());
         creditCardBusiness.setBusinessClient(businessClient);
